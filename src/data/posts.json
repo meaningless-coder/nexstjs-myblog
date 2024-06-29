@@ -1,16 +1,16 @@
 {
-    "posts": [
-      {
-        "id": "nextjs14",
-        "title": "Next.js14を学習中",
-        "content": "Next.js14を学習中",
-        "createdAt": "2023-07-17"
-      },
-      {
-        "id": "json-server",
-        "title": "json-server",
-        "content": "json-serverを学習中",
-        "createdAt": "2023-07-16"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": "nextjs14",
+      "title": "Next.js14を学習中",
+      "content": "Next.js14を学習中",
+      "createdAt": "2023-07-17"
+    },
+    {
+      "id": "json-server",
+      "title": "json-server",
+      "content": "json-serverを学習中",
+      "createdAt": "2023-07-16"
+    }
+  ]
+}
