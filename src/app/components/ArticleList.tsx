@@ -12,7 +12,7 @@ const ArticleList = ({ articles }: ArticleListProps) => {
     <div>
       {articles.map((articles) => (
         <article className="shadow my-4" key={articles.id}>
-          <Link href={`atrticles/${articles.id}`} className="hover:opacity-75">
+          <Link href={`articles/${articles.id}`} className="hover:opacity-75">
             <Image
               src="/28927685_s.jpg"
               alt=""
@@ -28,7 +28,7 @@ const ArticleList = ({ articles }: ArticleListProps) => {
               Technology
             </Link>
             <Link
-              href={`atrticles/${articles.id}`}
+              href={`articles/${articles.id}`}
               className="text-3xl font-bold text-slate-900 hover:text-gray-700 pb-4"
             >
               {articles.title}
@@ -36,7 +36,7 @@ const ArticleList = ({ articles }: ArticleListProps) => {
             <p className="text-sm pb-3 text-slate-900">{articles.created_at}</p>
             <a className="text-slate-900 pb-6">{articles.content}</a>
             <Link
-              href={`atrticles/${articles.id}`}
+              href={`articles/${articles.id}`}
               className="text-pink-800 hover:text-black"
             >
               続きを読む
